@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import NewTask from "./NewTask";
+import plus from "../assets/icons/plus-01.svg";
 
 function Dashboard() {
   const [displayWeekly, setDisplayWeekly] = useState(false);
@@ -468,7 +469,7 @@ function Dashboard() {
                     className="main-btn"
                     onClick={toggleTask}
                   >
-                    <img src="../assets/icons/plus-01.svg" alt="plus"></img>Add
+                    <img src={plus} alt="plus"></img>Add
                     Task
                   </button>
                 </div>

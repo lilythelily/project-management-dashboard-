@@ -1,8 +1,13 @@
-function DeleteConfirm({deleteOpen}) {
+import deleteBtn from "../assets/icons/delete.svg";
+
+function DeleteConfirm({ deleteOpen }) {
   return (
     <>
       <form className="modal modal__delete-confirm" noValidate>
-        <div className="modal__close modal__delete-close" onClick={deleteOpen}></div>
+        <div
+          className="modal__close modal__delete-close"
+          onClick={deleteOpen}
+        ></div>
 
         <div className="delete__exclamation"></div>
         <p className="delete__title">Delete Confirmation</p>
@@ -17,7 +22,7 @@ function DeleteConfirm({deleteOpen}) {
           </button>
           <button type="submit" className="main-btn delete-btn">
             Delete
-            <img src="../assets/icons/delete.svg" alt="delete"></img>
+            <img src={deleteBtn} alt="delete"></img>
           </button>
         </div>
       </form>

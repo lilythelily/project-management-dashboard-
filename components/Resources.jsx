@@ -194,27 +194,4 @@ function Resources() {
 
 export default Resources;
 
-           {/* <div className="resources__category-header">
-                    <img src={clipboard} alt="clipboard"></img> Discovery Forms
-                  </div>
-        
-                  <div className="resources__list">
-                    <div className="resouces__item-link">
-                      <div className="invoices__list-item resources__list-item">
-                        UI/UX Discovery Form
-                      </div>
-                      <div className="overview__tag">Design</div>
-                      <div className="resources__list-item-url">
-                        https://www.dropbox.com/123456abcdefjk
-                      </div>
-                    </div>
-                    <div className="resources__btns">
-                      <div className="tasks__edit-btn" onClick={toggleEdit}></div>
-                      <div
-                        className="tasks__delete-btn"
-                        onClick={toggleDelete}
-                      ></div>
-                    </div>
-                  </div>
-
-                </div> */}
+         

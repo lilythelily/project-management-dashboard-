@@ -1,4 +1,5 @@
-function EditClient({ editOpen, deleteOpen}) {
+import save from "../assets/icons/save.svg";
+function EditClient({ editOpen, deleteOpen }) {
   return (
     <>
       <form className="modal modal__edit-client" noValidate>
@@ -79,11 +80,19 @@ function EditClient({ editOpen, deleteOpen}) {
           </div>
         </div>
         <div className="three-btns">
-          <button type="button" className="main-btn save-btn" onClick={editOpen}>
-            <img src="../assets/icons/save.svg" alt="plus"></img>Save
+          <button
+            type="button"
+            className="main-btn save-btn"
+            onClick={editOpen}
+          >
+            <img src={save} alt="plus"></img>Save
           </button>
           <div className="modal__btns modal__btns--2">
-            <button type="button" className="main-btn delete-btn" onClick={deleteOpen}>
+            <button
+              type="button"
+              className="main-btn delete-btn"
+              onClick={deleteOpen}
+            >
               Delete<img src="../assets/icons/delete.svg" alt="delete"></img>
             </button>
             <button type="button" className="outline-btn" onClick={editOpen}>
