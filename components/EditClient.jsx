@@ -1,4 +1,6 @@
 import save from "../assets/icons/save.svg";
+import deleteBtn from "../assets/icons/delete.svg";
+
 function EditClient({ editOpen, deleteOpen }) {
   return (
     <>
@@ -93,7 +95,7 @@ function EditClient({ editOpen, deleteOpen }) {
               className="main-btn delete-btn"
               onClick={deleteOpen}
             >
-              Delete<img src="../assets/icons/delete.svg" alt="delete"></img>
+              Delete<img src={deleteBtn} alt="delete"></img>
             </button>
             <button type="button" className="outline-btn" onClick={editOpen}>
               Cancel
