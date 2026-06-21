@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Initial proposal",
+    "desc": "Create and submit initial project proposal to client",
+    "due": "2026/07/28",
+    "status": "Completed"
+  },
+  {
+    "id": 2,
+    "title": "Quote",
+    "desc": "Prepare detailed project quote and pricing breakdown",
+    "due": "2026/07/29",
+    "status": "Completed"
+  },
+  {
+    "id": 3,
+    "title": "Contract",
+    "desc": "Craft and sign project contract with client",
+    "due": "2026/07/30",
+    "status": "Completed"
+  },
+  {
+    "id": 4,
+    "title": "Research & Moodboarding",
+    "desc": "Conduct competitive analysis, collect inspiration and create moodboard",
+    "due": "2026/08/01",
+    "status": "Completed"
+  },
+  {
+    "id": 5,
+    "title": "Wireframe",
+    "desc": "Design low-fidelity wireframes for user flows and layouts",
+    "due": "2026/08/03",
+    "status": "In progress"
+  },
+  {
+    "id": 6,
+    "title": "High-Fi Design",
+    "desc": "Create high-fidelity designs and prototype in Figma",
+    "due": "2026/08/05",
+    "status": "In progress"
+  },
+  {
+    "id": 7,
+    "title": "Feedback and iteration",
+    "desc": "Collect client feedback and iterate on designs",
+    "due": "2026/08/16",
+    "status": "In progress"
+  },
+  {
+    "id": 8,
+    "title": "Design system",
+    "desc": "Collect client feedback and iterate on designs",
+    "due": "2026/08/24",
+    "status": "Not started"
+  },
+  {
+    "id": 9,
+    "title": "Mockups",
+    "desc": "Create final design mockups for all devices",
+    "due": "2026/08/25",
+    "status": "Not started"
+  },
+  {
+    "id": 10,
+    "title": "Front-end development",
+    "desc": "Implement in HTML, CSS, JavaScript / React.js",
+    "due": "2026/09//25",
+    "status": "Not started"
+  },
+  {
+    "id": 11,
+    "title": "Browser compatibility check",
+    "desc": "Test and ensure compatibility across major browsers",
+    "due": "2026/09/26",
+    "status": "Not started"
+  },
+  {
+    "id": 12,
+    "title": "Code review and revision",
+    "desc": "Collect client review and revise the code",
+    "due": "2026/09/30",
+    "status": "Not started"
+  },
+  {
+    "id": 13,
+    "title": "Deploy",
+    "desc": "Deploy to staging/preview environment for final review",
+    "due": "2026/10/02",
+    "status": "Not started"
+  },
+  {
+    "id": 14,
+    "title": "Final Delivery",
+    "desc": "Create ReadMe documentation and prepare final deliverables",
+    "due": "2026/10/02",
+    "status": "Not started"
+  },
+  {
+    "id": 15,
+    "title": "Invoice",
+    "desc": "Send an invoice to client",
+    "due": "2026/10/02",
+    "status": "Not started"
+  }
+]
