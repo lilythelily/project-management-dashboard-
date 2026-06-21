@@ -84,7 +84,7 @@ function NewInvoice({invoiceOpen}) {
           <button type="button" className="outline-btn" onClick={invoiceOpen}>
             Cancel
           </button>
-          <button type="submit" className="main-btn">
+          <button type="button" className="main-btn">
             <img src={plus} alt="plus"></img>Add Invoice
           </button>
         </div>

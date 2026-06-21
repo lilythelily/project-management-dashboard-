@@ -20,7 +20,7 @@ function DeleteConfirm({ deleteOpen }) {
           <button type="button" className="outline-btn" onClick={deleteOpen}>
             Cancel
           </button>
-          <button type="submit" className="main-btn delete-btn">
+          <button type="button" className="main-btn delete-btn">
             Delete
             <img src={deleteBtn} alt="delete"></img>
           </button>

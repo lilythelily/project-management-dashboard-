@@ -84,7 +84,7 @@ function NewClient({clientOpen}) {
           <button type="button" className="outline-btn" onClick={clientOpen}>
             Cancel
           </button>
-          <button type="submit" className="main-btn">
+          <button type="button" className="main-btn">
             <img src={plus} alt="plus"></img>Add Client
           </button>
         </div>

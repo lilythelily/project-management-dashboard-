@@ -56,7 +56,7 @@ function NewResource({resourceOpen}) {
           <button type="button" className="outline-btn" onClick={resourceOpen}>
             Cancel
           </button>
-          <button type="submit" className="main-btn">
+          <button type="button" className="main-btn">
             <img src={plus} alt="plus"></img>Add Resource
           </button>
         </div>

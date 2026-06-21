@@ -56,7 +56,7 @@ function EditResource({editOpen}) {
           <button type="button" className="outline-btn" onClick={editOpen}>
             Cancel
           </button>
-          <button type="submit" className="main-btn" onClick={editOpen}>
+          <button type="button" className="main-btn" onClick={editOpen}>
             <img src={save} alt="save"></img>Save
           </button>
         </div>

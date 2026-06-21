@@ -69,7 +69,7 @@ function EditTask({editTaskOpen}) {
           <button type="button" className="outline-btn" onClick={editTaskOpen}>
             Cancel
           </button>
-          <button type="submit" className="main-btn">
+          <button type="button" className="main-btn">
             <img src={save} alt="save"></img>Save Changes
           </button>
         </div>

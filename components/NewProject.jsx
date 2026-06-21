@@ -82,7 +82,7 @@ function NewProject({projectOpen}) {
           <button type="button" className="outline-btn">
             Cancel
           </button>
-          <button type="submit" className="main-btn">
+          <button type="button" className="main-btn">
             <img src={plus} alt="plus"></img>Add Project
           </button>
         </div>
