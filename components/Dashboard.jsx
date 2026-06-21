@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import NewTask from "./NewTask";
 import plus from "../assets/icons/plus-01.svg";
+import hourglass from "../assets/icons/hourglass-outline.svg"
+import clock from "../assets/icons/clock-forward.svg"
+import check from "../assets/icons/check-broken.svg"
 
 function Dashboard() {
   const [displayWeekly, setDisplayWeekly] = useState(false);
@@ -179,7 +182,7 @@ function Dashboard() {
                       <div className="overview__tag-number">
                         <p className="overview__progress-tag">
                           <img
-                            src="../assets/icons/hourglass-outline.svg"
+                            src={hourglass}
                             alt="hourglass"
                           ></img>
                           Not Started
@@ -190,7 +193,7 @@ function Dashboard() {
                       <div className="overview__tag-number">
                         <p className="overview__progress-tag overview__progress-tag--purple">
                           <img
-                            src="../assets/icons/clock-forward.svg"
+                            src={clock}
                             alt="clock"
                           ></img>
                           In Progress
@@ -201,7 +204,7 @@ function Dashboard() {
                       <div className="overview__tag-number">
                         <p className="overview__progress-tag overview__progress-tag--green">
                           <img
-                            src="../assets/icons/check-broken.svg"
+                            src={check}
                             alt="check"
                           ></img>
                           Completed
@@ -265,7 +268,7 @@ function Dashboard() {
                       <div className="overview__tag-number">
                         <p className="overview__progress-tag">
                           <img
-                            src="../assets/icons/hourglass-outline.svg"
+                            src={hourglass}
                             alt="hourglass"
                           ></img>
                           Not Started
@@ -276,7 +279,7 @@ function Dashboard() {
                       <div className="overview__tag-number">
                         <p className="overview__progress-tag overview__progress-tag--purple">
                           <img
-                            src="../assets/icons/clock-forward.svg"
+                            src={clock}
                             alt="clock"
                           ></img>
                           In Progress
@@ -287,7 +290,7 @@ function Dashboard() {
                       <div className="overview__tag-number">
                         <p className="overview__progress-tag overview__progress-tag--green">
                           <img
-                            src="../assets/icons/check-broken.svg"
+                            src={check}
                             alt="check"
                           ></img>
                           Completed
@@ -356,7 +359,7 @@ function Dashboard() {
                       <div className="overview__tag-number">
                         <p className="overview__progress-tag">
                           <img
-                            src="../assets/icons/hourglass-outline.svg"
+                            src={hourglass}
                             alt="hourglass"
                           ></img>
                           Not Started
@@ -367,7 +370,7 @@ function Dashboard() {
                       <div className="overview__tag-number">
                         <p className="overview__progress-tag overview__progress-tag--purple">
                           <img
-                            src="../assets/icons/clock-forward.svg"
+                            src={clock}
                             alt="clock"
                           ></img>
                           In Progress
@@ -378,7 +381,7 @@ function Dashboard() {
                       <div className="overview__tag-number">
                         <p className="overview__progress-tag overview__progress-tag--green">
                           <img
-                            src="../assets/icons/check-broken.svg"
+                            src={check}
                             alt="check"
                           ></img>
                           Completed
